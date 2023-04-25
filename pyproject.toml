@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "automate-reports-gpt"
+version = "0.1.0"
+description = ""
+authors = ["Sammy Tbeile <sammytbeile@gmail.com>"]
+readme = "README.md"
+packages = [{include = "automate_reports_gpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+faust = "^1.10.4"
+psycopg2-binary = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
